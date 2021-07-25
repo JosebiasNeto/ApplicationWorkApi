@@ -15,7 +15,7 @@ class ProductAdapter(
     private val context:Context,
     private val productList: List<Product>) : RecyclerView.Adapter<ProductViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductViewHolder {
-        LayoutInflater
+
     }
 
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
